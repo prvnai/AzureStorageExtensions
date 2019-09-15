@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs
+/src/Blob/obj
+/src/Blob/.vs
+/src/Queue/.vs
+/src/Queue/obj/Debug/netcoreapp2.2
+/src/Queue/obj/Release/netcoreapp2.2
+/src/Queue/obj
