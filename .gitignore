@@ -9,3 +9,7 @@
 /src/Queue/obj/Debug/netcoreapp2.2
 /src/Queue/obj/Release/netcoreapp2.2
 /src/Queue/obj
+/src/Queue/bin/Debug/netcoreapp2.2
+/src/Blob/bin/Debug/netcoreapp2.2
+/src/Queue/bin
+/src/Blob/bin

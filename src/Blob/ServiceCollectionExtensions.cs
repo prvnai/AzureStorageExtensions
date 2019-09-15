@@ -5,11 +5,11 @@ namespace Microsoft.Azure.Extensions.Storage.Blob
 {
     public static class ServiceCollectionExtensions
     {
-        public static void ConfigureQueue(this IServiceCollection services, Action<BlobConfiguration> queueoptions)
+        public static void ConfigureBlob(this IServiceCollection services, Action<BlobConfiguration> options)
         {
             var configuration = new BlobConfiguration();
 
-            queueoptions(configuration);
+            options(configuration);
 
             services.AddTransient<IBlobClient, BlobClient>((sp) => new BlobClient(configuration));
 
